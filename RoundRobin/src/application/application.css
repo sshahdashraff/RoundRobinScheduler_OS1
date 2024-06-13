@@ -1,0 +1,82 @@
+.button {
+  -fx-background-color: #007bff;
+  -fx-text-fill: white;
+  -fx-font-size: 12px;
+  -fx-padding: 5px 10px;
+  -fx-border-radius: 2px;
+}
+
+.button:hover {
+	-fx-background-color: #b0d6ff;
+	-fx-text-fill: black;
+}
+
+.text-field {
+    -fx-background-color:  #F8FBF8;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.text-field:focused {
+    -fx-border-color: #007bff;
+}
+
+.table-view {
+    -fx-background-color: white;
+}
+
+.table-row-cell {
+    -fx-background-color: #f0f0f0;
+}
+
+.table-header {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+.table-cell {
+    -fx-alignment: center;
+    -fx-font-size: 14px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #d8e5eb; 
+}
+
+.table-row-cell:even {
+    -fx-background-color: #f5fafc;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #ddd;
+}
+
+.table-view .column-header {
+    -fx-background-color: #abc9d6;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+    -fx-alignment: center; 
+}
+
+.status-red {
+    -fx-background-color:red;
+}
+.status-green {
+    -fx-background-color:green;
+}
+.status-blue {
+    -fx-background-color:blue;
+}
+.status-pink {
+    -fx-background-color:pink;
+}
+.status-yellow {
+    -fx-background-color:yellow;
+}
+.status-purple {
+    -fx-background-color:purple;
+}
+.status-black {
+    -fx-background-color:black;
+}
